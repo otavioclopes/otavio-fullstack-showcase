@@ -161,12 +161,15 @@
   
   /* Professional button styles */
   .btn-hero {
-    @apply bg-primary hover:bg-primary-dark text-primary-foreground font-semibold py-4 px-8 rounded-xl shadow-medium hover:shadow-strong transition-smooth transform hover:-translate-y-1;
+    @apply bg-primary hover:bg-primary-dark text-primary-foreground font-semibold;
+    @apply py-4 px-8 rounded-xl shadow-medium hover:shadow-strong;
+    @apply transition-smooth transform hover:-translate-y-1;
   }
   
   /* Skill tag styles */
   .skill-tag {
-    @apply bg-accent text-accent-foreground px-4 py-2 rounded-lg text-sm font-medium transition-smooth hover:bg-primary hover:text-primary-foreground;
+    @apply bg-accent text-accent-foreground px-4 py-2 rounded-lg text-sm font-medium;
+    @apply transition-smooth hover:bg-primary hover:text-primary-foreground;
   }
   
   /* Project card styles */
